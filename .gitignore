@@ -1,6 +1,18 @@
+# Ignore local development environment files
 .Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-ehringhaus.github.io.Rproj
-.DS_Store
+.hugo_build.lock
+
+# Ignore files not related to content creation
+netlify.toml
+
+# Don't ignore these
+!.gitignore
+!CNAME
+!config.yaml
+!content
+!index.Rmd
+!layouts
+!LICENSE
+!public
+!resources
+!themes
