@@ -16,9 +16,9 @@
     </div>
 
   {{ with .Site.Params.readMore }}
-      <h2 class="read-more">{{ . }}</h2> 
+      <h2 class="read-more"><a href="{{ "/posts" | relURL }}">{{ . }}</a></h2> 
   {{ else }}
-      <h2 class="read-more">{{ i18n "readMore" }}</h2> 
+      <h2 class="read-more"><a href="{{ "/posts" | relURL }}">{{ i18n "readMore" }}</a></h2> 
   {{ end }}
 
   

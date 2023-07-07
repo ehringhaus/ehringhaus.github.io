@@ -1,4 +1,4 @@
-baseURL: https://example.com
+baseURL: https://ehrror.com
 languageCode: en-us
 title: 
 theme: "hugo-theme-mini"
@@ -13,7 +13,7 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-paginate: 3
+paginate: 4
 
 googleAnalytics: your-google-analytics-id
 disqusShortname: your-disqus-shortname
@@ -64,7 +64,7 @@ params:
   # To enable comments, you may need to set `googleAnalytics`
   enableGoogleAnalytics: true
   # To enable table of content, you could set `showToc: true`, default is `false`
-  showToc: true
+  showToc: false
   # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
   showPowerBy: true
   # To enable math typesetting , you could set `math: true`, default is `false`

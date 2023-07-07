@@ -5,22 +5,22 @@ archive:
   other: Blog
 
 tags:
-  other: Tags
+  other: Topics
 
 about:
   other: About
 
-subscribe:
-  other: Subscribe
+# subscribe:
+#   other: Subscribe
 
 404title:
-  other: 404 - Page Not Found
+  other: 404 — e(h)rror
 
 404subtitle:
-  other: The content you're looking for doesn't seem to exist.
+  other: Unfortunately, this page does not exist.
 
 readMore:
-  other: Read more
+  other: Read something that exists.
 
 minuteRead:
   other: "{{ .ReadingTime }} minute read"
