@@ -1,6 +1,7 @@
 # Ignore local development environment files
 .Rproj.user
 .hugo_build.lock
+.DS_Store
 
 # Ignore files not related to content creation
 netlify.toml
