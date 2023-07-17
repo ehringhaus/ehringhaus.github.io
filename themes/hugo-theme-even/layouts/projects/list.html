@@ -1,0 +1,19 @@
+{{ define "content" -}}
+
+<section id="grid-page">
+    <div class="grid">
+        {{ range .Pages }}
+            <div class="grid-item">
+                <a href="{{ .Permalink }}">
+                    {{ with .Resources.GetMatch .Params.feature }}
+                        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+                    {{ end }}
+                    <h2 style="text-align: center;">{{ .Title }}</h2>
+                    <p class="grid-description">{{ .Params.description | truncate 80 "..." }}</p>
+                </a>
+            </div>
+        {{ end }}
+    </div>
+</section>
+
+{{- end }}

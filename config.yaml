@@ -1,91 +1,175 @@
 baseURL: https://ehrror.com
-languageCode: en-us
-title: 
-theme: "hugo-theme-mini"
-
-# Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
+languageCode: en
 defaultContentLanguage: en
-
-# !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
-# themesDir: ../../
-
-hasCJKLanguage: true
-permalinks:
-  posts: /posts/:title/
-
-paginate: 4
-
-googleAnalytics: your-google-analytics-id
-disqusShortname: your-disqus-shortname
-
-# Hugo Configure Markup
-# More info: https://gohugo.io/getting-started/configuration-markup#
+title: 'ehrror'
+preserveTaxonomyNames: yes
+enableRobotsTXT: yes
+enableEmoji: yes
+theme: hugo-theme-even
+enableGitInfo: no
+pygmentsOptions: linenos=table
+pygmentsCodefences: yes
+pygmentsUseClasses: yes
+pygmentsCodefencesGuessSyntax: yes
+hasCJKLanguage: yes
+paginate: 3
+disqusShortname: ''
+googleAnalytics: ''
+copyright: ''
+author:
+  name: Justin Ehringhaus
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+menu:
+# USING _index.md IN /content/ AS FRONT MATTER INSTEAD OF THE BELOW
+  # main:
+    # - identifier: home
+    #   name: Home
+    #   url: /
+    #   weight: 10
+    # - identifier: archive
+    #   name: Blog
+    #   url: /post/
+    #   weight: 20
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 30
+params:
+  archivePaginate: 100
+  autoCollapseToc: no
+  baiduAnalytics: ''
+  baiduPush: no
+  baiduVerification: ''
+  busuanzi:
+    enable: no
+    pagePV: yes
+    sitePV: yes
+    siteUV: yes
+  changyanAppid: ''
+  changyanAppkey: ''
+  contentCopyright: ''
+  customCSS: []
+  customJS: []
+  dateFormatToUse: '2006-01-02'
+  debug: no
+  description: A personal blog by Justin Ehringhaus.
+  fancybox: yes
+  flowchartDiagrams:
+    enable: no
+    options: ''
+  gitRepo: ''
+  gitalk:
+    clientId: ''
+    clientSecret: ''
+    owner: ''
+    repo: ''
+  gitment:
+    clientId: ''
+    clientSecret: ''
+    owner: ''
+    repo: ''
+  googleVerification: ''
+  highlightInClient: no
+  keywords:
+    - Hugo
+    - theme
+    - even
+  linkToMarkDown: no
+  livereUID: ''
+  logoTitle: ''
+  logoPath: '/images/logo.png'
+  mathjax: no
+  mathjaxEnableAutoNumber: no
+  mathjaxEnableSingleDollar: no
+  mathjaxUseLocalFiles: no
+  moreMeta: yes
+  outdatedInfoWarning:
+    enable: no
+    hint: 30
+    warn: 180
+  postMetaInFooter: no
+  publicCDN:
+    enable: yes
+    fancyboxCSS: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css"
+      integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+    fancyboxJS: <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js"
+      integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+    flowchartDiagramsJS: <script src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js"
+      integrity="sha256-67By+NpOtm9ka1R6xpUefeGOY8kWWHHRAKlvaTJ7ONI=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/flowchart.js@1.8.0/release/flowchart.min.js"
+      integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script>
+    jquery: <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    sequenceDiagramsCSS: <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.css"
+      integrity="sha384-6QbLKJMz5dS3adWSeINZe74uSydBGFbnzaAYmp+tKyq60S7H2p6V7g1TysM5lAaF"
+      crossorigin="anonymous">
+    sequenceDiagramsJS: <script src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js"
+      integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/snapsvg@0.5.1/dist/snap.svg-min.js"
+      integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/underscore@1.8.3/underscore-min.js"
+      integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/gh/bramp/js-sequence-diagrams@2.0.1/dist/sequence-diagram-min.js"
+      integrity="sha384-8748Vn52gHJYJI0XEuPB2QlPVNUkJlJn9tHqKec6J3q2r9l8fvRxrgn/E5ZHV0sP"
+      crossorigin="anonymous"></script>
+    slideout: <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js"
+      integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+    timeagoJS: <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js"
+      integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    timeagoLocalesJS: <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js"
+      integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  reward:
+    alipay: /path/to/your/alipay-qr-code.png
+    enable: no
+    wechat: /path/to/your/wechat-qr-code.png
+  sequenceDiagrams:
+    enable: no
+    options: ''
+  showArchiveCount: no
+  showLanguageSelector: no
+  since: '2023'
+  social:
+    a-email: mailto:ehringhaus@gmail.com
+    # b-stack-overflow: http://localhost:1313
+    # c-twitter: http://localhost:1313
+    # d-facebook: http://localhost:1313
+    # e-linkedin: https://www.linkedin.com/in/jehringhaus/
+    # f-google: http://localhost:1313
+    # g-github: https://github.com/ehringhaus
+    # h-weibo: http://localhost:1313
+    # i-zhihu: http://localhost:1313
+    # j-douban: http://localhost:1313
+    # k-pocket: http://localhost:1313
+    # l-tumblr: http://localhost:1313
+    # m-instagram: http://localhost:1313
+    # n-gitlab: http://localhost:1313
+    # o-bilibili: http://localhost:1313
+  toc: no
+  uglyURLs: no
+  utterances:
+    owner: ''
+    repo: ''
+  valine:
+    appId: 你的appId
+    appKey: 你的appKey
+    avatar: mm
+    enable: no
+    notify: no
+    placeholder: 说点什么吧...
+    verify: no
+    visitor: no
+  version: 4.x
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+  youtube:
+    privacyEnhanced: yes
 markup:
-  highlight:
-    guessSyntax: true
-    style: emacs
-  tableOfContents:
-    endLevel: 3
-    ordered: false
-    startLevel: 2
-  # needed to render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
   goldmark:
     renderer:
-      unsafe: true
-
-# Social links in footer, support github,twitter,stackoverflow,facebook
-social:
-  # e.g.
-  github: https://github.com/ehringhaus
-  linkedin: https://www.linkedin.com/in/jehringhaus
-  # twitter: your-github-link
-  # stackoverflow: your-github-link
-  # facebook: your-facebook-link
-
-
-# Site parameters
-params:
-  # Site Author
-  author: Justin Ehringhaus
-  # Author biography
-  bio: 
-  # Site Description, used in HTML meat
-  description: a blog
-
-
-  ###########################################
-  # Optional Configuration
-  ###########################################
-
-  # To enable RSS, you could set `enableRSS: true`, default is `true`
-  enableRSS: false
-  # To enable comments, you may need to set `disqusShortname`
-  enableComments: false
-  # To enable comments, you may need to set `googleAnalytics`
-  enableGoogleAnalytics: true
-  # To enable table of content, you could set `showToc: true`, default is `false`
-  showToc: false
-  # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
-  showPowerBy: true
-  # To enable math typesetting , you could set `math: true`, default is `false`
-  math: true
-  # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
-  hiddenPostSummaryInHomePage: true
-  # Website copy write, default: '© Copyright 2021 by {params.author}'
-  copyright: '' 
-
-  # Extra links in navigation
-  links:
-    ## e.g.
-    # - name: Project
-    #   path: /project
-
-  # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
-  customCSS:
-    ## e.g.
-    # - css/custom.css # local css in `static/css/custom.css`
-    # - https://example.com/custom.css # remote css
-  customJS:
-    ## e.g.
-    # - js/custom.js # local js in `static/js/custom.js`
-    # - https://example.com/custom.js # remote js
+      unsafe: yes
+  tableOfContents:
+    startLevel: 1
