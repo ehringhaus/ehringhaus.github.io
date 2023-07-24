@@ -9,7 +9,7 @@
                         <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
                     {{ end }}
                     <h2 style="text-align: center;">{{ .Title }}</h2>
-                    <p class="grid-description">{{ .Params.description | truncate 80 "..." }}</p>
+                    <p class="grid-description">{{ .Params.description }}</p>
                 </a>
             </div>
         {{ end }}

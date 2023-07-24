@@ -44,10 +44,10 @@ params:
   baiduPush: no
   baiduVerification: ''
   busuanzi:
-    enable: no
+    enable: yes
     pagePV: yes
-    sitePV: yes
-    siteUV: yes
+    sitePV: no
+    siteUV: no
   changyanAppid: ''
   changyanAppkey: ''
   contentCopyright: ''
