@@ -55,6 +55,9 @@ img {
 a {
   color: $global-font-color;
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @each $header, $size in $global-headings {

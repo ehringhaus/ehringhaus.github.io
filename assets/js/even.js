@@ -29,6 +29,15 @@ Even.mobileNavbar = function() {
   });
   slideout.disableTouch();
 
+  // Create the favicon image
+  const favicon = document.createElement('img');
+  favicon.src = '/images/mobile-logo.png'; // set the correct path here
+  favicon.style.height = '39px';
+  favicon.style.width = '39px';
+
+  // Append the favicon image to mobile-navbar
+  $mobileNav.append(favicon);
+
   $mobileNavIcon.click(function() {
     slideout.toggle();
   });
