@@ -21,6 +21,7 @@ Even.backToTop = function() {
 Even.mobileNavbar = function() {
   const $mobileNav = $('#mobile-navbar');
   const $mobileNavIcon = $('.mobile-navbar-icon');
+  const $mobileNavLogo = $('.mobile-header-logo');
   const slideout = new Slideout({
     'panel': document.getElementById('mobile-panel'),
     'menu': document.getElementById('mobile-menu'),
@@ -36,7 +37,7 @@ Even.mobileNavbar = function() {
   favicon.style.width = '39px';
 
   // Append the favicon image to mobile-navbar
-  $mobileNav.append(favicon);
+  $mobileNavLogo.append(favicon);
 
   $mobileNavIcon.click(function() {
     slideout.toggle();

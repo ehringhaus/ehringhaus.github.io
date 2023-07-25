@@ -1,12 +1,6 @@
 <div class="logo-wrapper">
   <a href="{{ "/" | relLangURL }}" class="logo">
-    {{- if .Site.Params.logoPath -}}
-      <img src="{{ .Site.BaseURL }}{{ .Site.Params.logoPath }}" alt="{{ .Site.Params.logoTitle }}" class="logo-img">
-    {{- else if .Site.Params.logoTitle -}}
-      {{ .Site.Params.logoTitle }}
-    {{- else -}}
-      {{ .Site.Title }}
-    {{- end -}}
+      <img src="{{ .Site.BaseURL }}{{ .Site.Params.logoPath }}" class="logo-img">
   </a>
 </div>
 
