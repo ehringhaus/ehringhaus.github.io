@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Visualizing the Heartbeat of a City - ehrror</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Justin Ehringhaus" /><meta name="description" content="An exploration of a city&#39;s pulse through the rhythm of data visualization and sentiment analysis." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.109.0 with theme even" />
+
+
+<link rel="canonical" href="https://ehrror.com/projects/2023-04-02-pulse-of-portland/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f1c19c4dad0a6459cbc8e9983ba0d6b53aa7bcd3ecd98b79c40da470e1876850.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Visualizing the Heartbeat of a City" />
+<meta property="og:description" content="An exploration of a city&#39;s pulse through the rhythm of data visualization and sentiment analysis." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ehrror.com/projects/2023-04-02-pulse-of-portland/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2023-04-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-04-02T00:00:00+00:00" />
+<meta itemprop="name" content="Visualizing the Heartbeat of a City">
+<meta itemprop="description" content="An exploration of a city&#39;s pulse through the rhythm of data visualization and sentiment analysis."><meta itemprop="datePublished" content="2023-04-02T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2023-04-02T00:00:00+00:00" />
+<meta itemprop="wordCount" content="679">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Visualizing the Heartbeat of a City"/>
+<meta name="twitter:description" content="An exploration of a city&#39;s pulse through the rhythm of data visualization and sentiment analysis."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">
+    </a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/blog/">
+        <li class="mobile-menu-item">Blog</li>
+      </a><a href="/projects/">
+        <li class="mobile-menu-item">Projects</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">
+      <img src="https://ehrror.com/images/logo.png" class="logo-img">
+  </a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Blog</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/projects/">Projects</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+
+      <h1 class="post-title">Visualizing the Heartbeat of a City</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2023-04-02 </span>
+        
+          <span class="more-meta"> 679 words </span>
+          <span class="more-meta"> 4 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      
+
+
+<p>How can we use data to visualize the heartbeat of a city? The answer lies in a unique blend of analytics and insight.</p>
+<p>For the past several weeks, I’ve investigated and visualized a city’s <a href="https://en.wikipedia.org/wiki/3-1-1">311 requests</a> as part of my degree coursework on interactive dashboards. These requests cover a range of non-urgent issues, from public roads and services to violations, disputes, and more. Admittedly, this dataset is a narrow window into a city and its heartbeat, but it has served to illustrate how a larger, more comprehensive dataset might present a deeper understanding of city dynamics.</p>
+<p>For those interested, the end result is live on shinyapps: <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a>. For more information, continue reading.</p>
+<div id="literature-review" class="section level2">
+<h2>Literature Review</h2>
+<p>I first aimed to find examples of cities using data to better themselves. A compelling <a href="https://medium.com/challenges-to-democracy/customer-driven-government-how-to-listen-learn-and-leverage-data-for-service-delivery-6d3732d96e48">article</a> by Jane Wiseman titled “Customer-Driven Government: How to Listen, Learn, and Leverage Data for Service Delivery” provides an insightful analysis of how customer feedback data is harnessed to improve government services. For instance:</p>
+<ul>
+<li><p><strong>Kansas City, Missouri</strong>. Every 311 interaction is a data point, a measure of the quality of services delivered by the city. The city’s response to low citizen satisfaction ratings on snow removal was to launch a media blitz, educating residents on what to expect and providing real-time updates for the public to track snowplows using GPS data.</p></li>
+<li><p><strong>Santa Monica, California</strong>. The city has developed the innovative <a href="https://www.civicwellbeing.org">Wellbeing Index</a>, integrating survey data, administrative data, and social media data into a comprehensive local index to enhance citizen welfare.</p></li>
+</ul>
+<p>As we transition into the design choices for my own proof-of-concept city dashboard, these examples form a foundation for our understanding of how data can be used to reveal the inner workings of a city.</p>
+</div>
+<div id="design-choices-sentiment-analysis-and-beyond" class="section level2">
+<h2>Design Choices: Sentiment Analysis and Beyond</h2>
+<p>For constructing the dashboard, I turned to <a href="https://www.shinyapps.io">Shiny</a> and <a href="https://appsilon.github.io/rhino/">Rhino</a>. Rhino is an R package designed to build high-quality, enterprise-grade Shiny applications.</p>
+<p>Designing it, I aimed to animate a triad of interconnected elements:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Sentiment Analysis</strong>: I wanted to understand the feelings and experiences of Portland residents. I conducted sentiment analysis on the complaints and categorized them to map the sentiment landscape of the city.</p></li>
+<li><p><strong>Word Frequencies and District Segmentation</strong>: I linked the sentiments to the specific words used in the complaints, revealing themes across districts. This allowed for a deeper dive into the district-specific narratives, highlighting the predominant issues resonating within each sentiment category and district.</p></li>
+</ol>
+<p>To back these insights, I created interactive visualizations to track trends over time and space, using a geospatial map built with <a href="https://rstudio.github.io/leaflet/">Leaflet</a> of actual complaints and a seasonal and year-by-year heat map of counts of those complaints.</p>
+<figure>
+<img src="pulse-of-portland-homepage.gif" style="width:100%;">
+<figcaption style="color:grey; text-align:center; font-size: small;">
+A top to bottom glimpse at the <a href="https://ehringhaus.shinyapps.io/project/">Pulse of Portland</a> dashboard.
+</figcaption>
+</figure>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>AI Generated Recommendations</strong>: To further the journey from observation to insight, I introduced a <em>very</em> proof-of-concept feature: AI-Generated Recommendations. This tool employs <a href="https://platform.openai.com/docs/models/gpt-3-5">gpt 3.5-turbo</a> by OpenAI, feeding it the dashboard’s current state (i.e., user selections and summary statistics) along with citywide <a href="https://www.census.gov/quickfacts/fact/table/portlandcitymaine/PST045222">Census QuickFacts</a> to return an easily digestible report, a quick snapshot of what citymakers should consider when addressing the community’s needs.</li>
+</ol>
+<figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+<img src="example-ai-report.png" style="width:75%; height:75%;">
+<figcaption style="color:grey; font-size: small;">
+An example of an “AI-Generated Recommendations” report
+</figcaption>
+</figure>
+<p>No paradigm shifts will be found here. Yet, following advice as simple as, “clean up the streets,” could lead to a significant increase in resident satisfaction.</p>
+</div>
+<div id="conclusion-the-lifeblood-of-a-city-in-the-age-of-data" class="section level2">
+<h2>Conclusion: The Lifeblood of a City in the Age of Data</h2>
+<p>Data is a seed from which knowledge grows. But much like a seed, data in its raw form isn’t particularly useful. This project is a testament to the power of visualization and its potential to uncover the intricate dynamics of a city. It demonstrates that even with a restricted dataset and a tight timeframe, we can extract valuable insights about a city and its residents. The <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a> dashboard is a tangible embodiment of this concept, a proof-of-concept that brings us closer to understanding the city’s rhythm.</p>
+<p>The journey ahead is exciting. We are not just creating smarter cities; we are creating cities that listen, understand, and respond. We are crafting cities that truly serve their residents, cities that pulse with the rhythm of their people.</p>
+</div>
+
+    </div>
+
+    
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:ehringhaus@gmail.com" class="iconfont icon-email" title="email"></a>
+  <a href="https://ehrror.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme Based on
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2023&nbsp;Justin Ehringhaus</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.eade6d3958d543f3c73f356721b0cb2d168dbe2d661d92e8cf7191ac9367d2d0.js"></script>
+
+<script data-goatcounter="https://GC-98328744.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+</body>
+</html>

@@ -14,7 +14,7 @@ pygmentsCodefencesGuessSyntax: yes
 hasCJKLanguage: yes
 paginate: 3
 disqusShortname: ''
-googleAnalytics: 'G-RHLW1HN2XV'
+googleAnalytics: ''
 copyright: ''
 author:
   name: Justin Ehringhaus
@@ -41,6 +41,7 @@ params:
   archivePaginate: 100
   autoCollapseToc: no
   baiduAnalytics: ''
+  goatCounterAnalytics: 'GC-98328744'
   baiduPush: no
   baiduVerification: ''
   busuanzi:

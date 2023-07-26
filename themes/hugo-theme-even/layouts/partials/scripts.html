@@ -97,6 +97,11 @@
   {{ template "_internal/google_analytics_async.html" . }}
 {{- end -}}
 
+{{- with .Site.Params.goatCounterAnalytics -}}
+<script data-goatcounter="https://{{.}}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{{- end }}
+
 {{- with .Site.Params.baiduAnalytics -}}
 <script id="baidu_analytics">
   var _hmt = _hmt || [];
