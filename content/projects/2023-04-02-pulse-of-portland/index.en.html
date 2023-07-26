@@ -12,6 +12,12 @@ description: "An exploration of a city's pulse through the rhythm of data visual
 <p>How can we use data to visualize the heartbeat of a city? The answer lies in a unique blend of analytics and insight.</p>
 <p>For the past several weeks, I’ve investigated and visualized a city’s <a href="https://en.wikipedia.org/wiki/3-1-1">311 requests</a> as part of my degree coursework on interactive dashboards. These requests cover a range of non-urgent issues, from public roads and services to violations, disputes, and more. Admittedly, this dataset is a narrow window into a city and its heartbeat, but it has served to illustrate how a larger, more comprehensive dataset might present a deeper understanding of city dynamics.</p>
 <p>For those interested, the end result is live on shinyapps: <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a>. For more information, continue reading.</p>
+<figure>
+<img src="pulse-of-portland-homepage.gif" style="width:100%;">
+<figcaption style="color:grey; text-align:center; font-size: small;">
+A top to bottom glimpse at the <a href="https://ehringhaus.shinyapps.io/project/">Pulse of Portland</a> dashboard.
+</figcaption>
+</figure>
 <div id="literature-review" class="section level2">
 <h2>Literature Review</h2>
 <p>I first aimed to find examples of cities using data to better themselves. A compelling <a href="https://medium.com/challenges-to-democracy/customer-driven-government-how-to-listen-learn-and-leverage-data-for-service-delivery-6d3732d96e48">article</a> by Jane Wiseman titled “Customer-Driven Government: How to Listen, Learn, and Leverage Data for Service Delivery” provides an insightful analysis of how customer feedback data is harnessed to improve government services. For instance:</p>
@@ -30,12 +36,6 @@ description: "An exploration of a city's pulse through the rhythm of data visual
 <li><p><strong>Word Frequencies and District Segmentation</strong>: I linked the sentiments to the specific words used in the complaints, revealing themes across districts. This allowed for a deeper dive into the district-specific narratives, highlighting the predominant issues resonating within each sentiment category and district.</p></li>
 </ol>
 <p>To back these insights, I created interactive visualizations to track trends over time and space, using a geospatial map built with <a href="https://rstudio.github.io/leaflet/">Leaflet</a> of actual complaints and a seasonal and year-by-year heat map of counts of those complaints.</p>
-<figure>
-<img src="pulse-of-portland-homepage.gif" style="width:100%;">
-<figcaption style="color:grey; text-align:center; font-size: small;">
-A top to bottom glimpse at the <a href="https://ehringhaus.shinyapps.io/project/">Pulse of Portland</a> dashboard.
-</figcaption>
-</figure>
 <ol start="3" style="list-style-type: decimal">
 <li><strong>AI Generated Recommendations</strong>: To further the journey from observation to insight, I introduced a <em>very</em> proof-of-concept feature: AI-Generated Recommendations. This tool employs <a href="https://platform.openai.com/docs/models/gpt-3-5">gpt 3.5-turbo</a> by OpenAI, feeding it the dashboard’s current state (i.e., user selections and summary statistics) along with citywide <a href="https://www.census.gov/quickfacts/fact/table/portlandcitymaine/PST045222">Census QuickFacts</a> to return an easily digestible report, a quick snapshot of what citymakers should consider when addressing the community’s needs.</li>
 </ol>

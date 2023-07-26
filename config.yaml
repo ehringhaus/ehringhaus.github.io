@@ -41,7 +41,7 @@ params:
   archivePaginate: 100
   autoCollapseToc: no
   baiduAnalytics: ''
-  goatCounterAnalytics: 'GC-98328744'
+  goatCounterAnalytics: 'gc-98328744'
   baiduPush: no
   baiduVerification: ''
   busuanzi:

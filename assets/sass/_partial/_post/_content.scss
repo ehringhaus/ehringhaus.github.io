@@ -3,6 +3,8 @@
 // ==============================
 
 .post-content {
+  font-size: 18px;
+  line-height: 30px;
   word-wrap: break-word;
 
   @for $i from 1 through 6 {
@@ -42,6 +44,8 @@
   a {
     color: $theme-color;
     word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
 
     &:hover {
       border-bottom: $content-link-border;
