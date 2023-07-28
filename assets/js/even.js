@@ -32,7 +32,7 @@ Even.mobileNavbar = function() {
 
   // Create the favicon image
   const favicon = document.createElement('img');
-  favicon.src = '/images/mobile-logo.png'; // set the correct path here
+  favicon.src = '/images/logo.png'; // set the correct path here
   favicon.style.height = '39px';
   favicon.style.width = '39px';
 

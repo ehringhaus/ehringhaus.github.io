@@ -123,8 +123,14 @@ $post-border: 1px solid $light-gray !default;
 // Font size of post title.
 $post-title-font-size: 38px !default;
 
+// Font size of post link (homepage).
+$post-link-font-size: 24px !default;
+
 // Font weight of post title.
-$post-title-font-weight: 400 !default;
+$post-title-font-weight: 600 !default;
+
+// Font weight of post link (homepage.
+$post-link-font-weight: 400 !default;
 
 // Margin top of the post meta (post time).
 $post-meta-margin-top: 5px !default;

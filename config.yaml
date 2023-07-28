@@ -75,9 +75,20 @@ params:
   googleVerification: ''
   highlightInClient: no
   keywords:
-    - Hugo
-    - theme
-    - even
+    - Data Analysis
+    - Language Learning
+    - Tech Insights
+    - Cultural Analysis
+    - Data Patterns
+    - Narratives in Data
+    - Justin Ehringhaus
+    - Data Visualization
+    - Tech Blog
+    - Language Blog
+    - Data Storytelling
+    - Technology and Culture
+    - Data and Culture
+    - Language and Technology
   linkToMarkDown: no
   livereUID: ''
   logoTitle: ''
@@ -151,8 +162,8 @@ params:
   toc: no
   uglyURLs: no
   utterances:
-    owner: ''
-    repo: ''
+    owner: 'ehringhaus'
+    repo: 'ehrror-comments'
   valine:
     appId: 你的appId
     appKey: 你的appKey
