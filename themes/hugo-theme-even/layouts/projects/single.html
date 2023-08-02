@@ -6,6 +6,11 @@
         <div class="post-info">
           <h1 class="post-title">{{ .Title }}</h1>
           <div class="post-meta">
+            {{ with .Params.description }}
+            <div class="post-description">
+                <p>{{ . }}</p>
+            </div>
+            {{ end }}
             <span class="post-time"> {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }} </span>
             {{ with .Params.categories -}}
               <div class="post-category">
@@ -23,13 +28,7 @@
               <span id="busuanzi_container_page_pv" class="more-meta"> {{ printf (T "pagePV") $valueSpan | safeHTML }} </span>
             {{- end }}
           </div>
-
-          {{ with .Params.description }}
-          <div class="post-description">
-              <p>{{ . }}</p>
-            </div>
-          {{ end }}
-          </div>
+        </div>
 
           {{ with .Resources.GetMatch .Params.feature }}
           <div class="post-featured-image">
@@ -39,6 +38,14 @@
 
       </div>
     </header>
+
+<!-- NOTE: FIX THIS -->
+    <div class="social-share">
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-facebook" title="Share on Facebook"></a>
+      <a href="https://twitter.com/intent/tweet?text={{ .Title | urlize }}&url={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-twitter" title="Share on Twitter"></a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-linkedin" title="Share on LinkedIn"></a>
+      <a href="mailto:?subject={{ .Title | urlize }}&body={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-email" title="Email"></a>
+    </div>
 
     <!-- TOC -->
     {{- partial "post/toc.html" . -}}
