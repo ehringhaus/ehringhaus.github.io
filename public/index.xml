@@ -13,8 +13,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehrror.com/about/</guid>
-      <description>Welcome to ehrror, by Justin Ehringhaus. This is my canvas for weaving thoughts, ideas, and discoveries. This space is born from a fascination with the beauty of languages, the power of technology, and the hidden patterns in data.
-Just as the intricacies of a language can reveal the depths of a culture, so too can the patterns in data reveal the underlying narratives of our world. I hope to break down the barriers between us and these narratives.</description>
+      <description>Four years ago, I began furiously coding up &amp;lsquo;hello-world&amp;rsquo;s like a possum on sweet potato. Not long after, potatoless, I was diving headlong into neural nets with Coursera&amp;rsquo;s Andrew Ng.
+The allure of grandiosity is a powerful one, but it&amp;rsquo;s also a vice. The real art is in not losing sight of simple joys — the ones that exist in coding a line that works, in crafting a sentence that sings, in savoring a moment of pure living.</description>
     </item>
     
     <item>
@@ -23,8 +23,8 @@ Just as the intricacies of a language can reveal the depths of a culture, so too
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ehrror.com/projects/2023-04-02-portland-complaints-sentiment-dashboard/</guid>
-      <description>How can we use data to visualize the heartbeat of a city? The answer lies in a unique blend of analytics and insight.
-For the past several weeks, I’ve investigated and visualized a city’s 311 requests as part of my degree coursework on interactive dashboards. These requests cover a range of non-urgent issues, from public roads and services to violations, disputes, and more. Admittedly, this dataset is a narrow window into a city and its heartbeat, but it has served to illustrate how a larger, more comprehensive dataset might present a deeper understanding of city dynamics.</description>
+      <description>How might data illuminate a city’s pulse? A potent fusion of analytics and insight provides the answer.
+In recent weeks, my studies have led me on a fascinating exploration of city dynamics via visualization of a city’s 311 requests as part of my degree coursework on interactive dashboards. While these requests span an array of non-urgent matters, from infrastructure to disputes, they paint a partial picture of a city’s heartbeat.</description>
     </item>
     
   </channel>

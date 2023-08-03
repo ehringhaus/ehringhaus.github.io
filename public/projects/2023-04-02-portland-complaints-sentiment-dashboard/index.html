@@ -36,7 +36,7 @@
 
 
 
-<link href="/sass/main.min.43de4bb84f5e1d0811549d9cc95ae43cd97ac70b59131eab33fda7296346370d.css" rel="stylesheet">
+<link href="/sass/main.min.cb569efa306336537d349e043fdf6e5d32420b699354e1e4707dbecbc2cbcf0c.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
@@ -49,7 +49,7 @@
 <meta itemprop="name" content="Visualizing the Heartbeat of a City">
 <meta itemprop="description" content="An exploration of a city&#39;s pulse through the rhythm of data visualization and sentiment analysis."><meta itemprop="datePublished" content="2023-04-02T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2023-04-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="679">
+<meta itemprop="wordCount" content="573">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Visualizing the Heartbeat of a City"/>
 <meta name="twitter:description" content="An exploration of a city&#39;s pulse through the rhythm of data visualization and sentiment analysis."/>
@@ -138,8 +138,8 @@
             
             <span class="post-time"> 2023-04-02 </span>
             
-              <span class="more-meta"> 679 words </span>
-              <span class="more-meta"> 4 mins read </span>
+              <span class="more-meta"> 573 words </span>
+              <span class="more-meta"> 3 mins read </span>
             
           </div>
         </div>
@@ -153,22 +153,14 @@
       </div>
     </header>
 
-
-    <div class="social-share">
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https%2f%2fehrror.com%2fprojects%2f2023-04-02-portland-complaints-sentiment-dashboard%2f" target="_blank" rel="noopener noreferrer" class="iconfont icon-facebook" title="Share on Facebook"></a>
-      <a href="https://twitter.com/intent/tweet?text=visualizing-the-heartbeat-of-a-city&url=https%2f%2fehrror.com%2fprojects%2f2023-04-02-portland-complaints-sentiment-dashboard%2f" target="_blank" rel="noopener noreferrer" class="iconfont icon-twitter" title="Share on Twitter"></a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%2f%2fehrror.com%2fprojects%2f2023-04-02-portland-complaints-sentiment-dashboard%2f" target="_blank" rel="noopener noreferrer" class="iconfont icon-linkedin" title="Share on LinkedIn"></a>
-      <a href="mailto:?subject=visualizing-the-heartbeat-of-a-city&body=https%2f%2fehrror.com%2fprojects%2f2023-04-02-portland-complaints-sentiment-dashboard%2f" target="_blank" rel="noopener noreferrer" class="iconfont icon-email" title="Email"></a>
-    </div>
-
     
     <div class="post-content">
       
 
 
-<p>How can we use data to visualize the heartbeat of a city? The answer lies in a unique blend of analytics and insight.</p>
-<p>For the past several weeks, I’ve investigated and visualized a city’s <a href="https://en.wikipedia.org/wiki/3-1-1">311 requests</a> as part of my degree coursework on interactive dashboards. These requests cover a range of non-urgent issues, from public roads and services to violations, disputes, and more. Admittedly, this dataset is a narrow window into a city and its heartbeat, but it has served to illustrate how a larger, more comprehensive dataset might present a deeper understanding of city dynamics.</p>
-<p>For those interested, the end result is live on shinyapps: <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a>. For more information, continue reading.</p>
+<p>How might data illuminate a city’s pulse? A potent fusion of analytics and insight provides the answer.</p>
+<p>In recent weeks, my studies have led me on a fascinating exploration of city dynamics via visualization of a city’s <a href="https://en.wikipedia.org/wiki/3-1-1">311 requests</a> as part of my degree coursework on interactive dashboards. While these requests span an array of non-urgent matters, from infrastructure to disputes, they paint a partial picture of a city’s heartbeat. Even though this data is relatively limited, it exemplifies how a larger dataset could offer profound insights into the ebb and flow of urban life.</p>
+<p>For those curious, my final output is accessible on shinyapps: <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a>. Dive deeper into the process by reading on.</p>
 <figure>
 <img src="pulse-of-portland-homepage.gif" style="width:100%;">
 <figcaption style="color:grey; text-align:center; font-size: small;">
@@ -177,24 +169,24 @@ A top to bottom glimpse at the <a href="https://ehringhaus.shinyapps.io/project/
 </figure>
 <div id="literature-review" class="section level2">
 <h2>Literature Review</h2>
-<p>I first aimed to find examples of cities using data to better themselves. A compelling <a href="https://medium.com/challenges-to-democracy/customer-driven-government-how-to-listen-learn-and-leverage-data-for-service-delivery-6d3732d96e48">article</a> by Jane Wiseman titled “Customer-Driven Government: How to Listen, Learn, and Leverage Data for Service Delivery” provides an insightful analysis of how customer feedback data is harnessed to improve government services. For instance:</p>
+<p>Initially, I hoped to identify how cities use data to propel their improvement. Jane Wiseman’s insightful <a href="https://medium.com/challenges-to-democracy/customer-driven-government-how-to-listen-learn-and-leverage-data-for-service-delivery-6d3732d96e48">article</a> “Customer-Driven Government: How to Listen, Learn, and Leverage Data for Service Delivery” became a riveting resource. A couple of examples:</p>
 <ul>
-<li><p><strong>Kansas City, Missouri</strong>. Every 311 interaction is a data point, a measure of the quality of services delivered by the city. The city’s response to low citizen satisfaction ratings on snow removal was to launch a media blitz, educating residents on what to expect and providing real-time updates for the public to track snowplows using GPS data.</p></li>
-<li><p><strong>Santa Monica, California</strong>. The city has developed the innovative <a href="https://www.civicwellbeing.org">Wellbeing Index</a>, integrating survey data, administrative data, and social media data into a comprehensive local index to enhance citizen welfare.</p></li>
+<li><p><strong>Kansas City, Missouri</strong>. Here, each 311 interaction translates into a data point reflecting the city’s service quality. Faced with low satisfaction rates on snow removal, the city initiated a media campaign to manage expectations and provide real-time updates using GPS data for snowplows.</p></li>
+<li><p><strong>Santa Monica, California</strong>. They’ve launched the forward-thinking <a href="https://www.civicwellbeing.org">Wellbeing Index</a>, which aggregates survey, administrative, and social media data into a comprehensive local index for improving citizen welfare.</p></li>
 </ul>
-<p>As we transition into the design choices for my own proof-of-concept city dashboard, these examples form a foundation for our understanding of how data can be used to reveal the inner workings of a city.</p>
+<p>As we segue into the design considerations for my city dashboard concept, these case studies ground our comprehension of data’s potential to disclose the inner workings of a city.</p>
 </div>
 <div id="design-choices-sentiment-analysis-and-beyond" class="section level2">
 <h2>Design Choices: Sentiment Analysis and Beyond</h2>
-<p>For constructing the dashboard, I turned to <a href="https://www.shinyapps.io">Shiny</a> and <a href="https://appsilon.github.io/rhino/">Rhino</a>. Rhino is an R package designed to build high-quality, enterprise-grade Shiny applications.</p>
+<p>To structure the dashboard, I adopted tools like <a href="https://www.shinyapps.io">Shiny</a> and <a href="https://appsilon.github.io/rhino/">Rhino</a>. Rhino is an R package, adept at crafting high-quality, enterprise-grade Shiny applications.</p>
 <p>Designing it, I aimed to animate a triad of interconnected elements:</p>
 <ol style="list-style-type: decimal">
 <li><p><strong>Sentiment Analysis</strong>: I wanted to understand the feelings and experiences of Portland residents. I conducted sentiment analysis on the complaints and categorized them to map the sentiment landscape of the city.</p></li>
-<li><p><strong>Word Frequencies and District Segmentation</strong>: I linked the sentiments to the specific words used in the complaints, revealing themes across districts. This allowed for a deeper dive into the district-specific narratives, highlighting the predominant issues resonating within each sentiment category and district.</p></li>
+<li><p><strong>Word Frequencies and District Segmentation</strong>: I linked the sentiments to the specific words used in the complaints, revealing themes across districts. This led to a closer look at the narratives within each district, underlining predominant issues within each sentiment category and district.</p></li>
 </ol>
-<p>To back these insights, I created interactive visualizations to track trends over time and space, using a geospatial map built with <a href="https://rstudio.github.io/leaflet/">Leaflet</a> of actual complaints and a seasonal and year-by-year heat map of counts of those complaints.</p>
+<p>Supporting these insights were interactive visualizations depicting trends through time and space, incorporating a geospatial map constructed with <a href="https://rstudio.github.io/leaflet/">Leaflet</a> showing actual complaints and a seasonal, yearly heat map of complaint counts.</p>
 <ol start="3" style="list-style-type: decimal">
-<li><strong>AI Generated Recommendations</strong>: To further the journey from observation to insight, I introduced a <em>very</em> proof-of-concept feature: AI-Generated Recommendations. This tool employs <a href="https://platform.openai.com/docs/models/gpt-3-5">gpt 3.5-turbo</a> by OpenAI, feeding it the dashboard’s current state (i.e., user selections and summary statistics) along with citywide <a href="https://www.census.gov/quickfacts/fact/table/portlandcitymaine/PST045222">Census QuickFacts</a> to return an easily digestible report, a quick snapshot of what citymakers should consider when addressing the community’s needs.</li>
+<li><strong>AI-Powered Recommendations</strong>: Advancing from observation to understanding, I introduced a <em>rudimentary</em> feature: AI-Powered Recommendations. This tool utilizes <a href="https://platform.openai.com/docs/models/gpt-3-5">gpt 3.5-turbo</a> by OpenAI. It processes the current dashboard state (user selections, summary stats) along with citywide <a href="https://www.census.gov/quickfacts/fact/table/portlandcitymaine/PST045222">Census QuickFacts</a> to generate an easy-to-grasp report, providing citymakers with a snapshot of factors to consider while attending to community needs.</li>
 </ol>
 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
 <img src="example-ai-report.png" style="width:75%; height:75%;">
@@ -202,12 +194,11 @@ A top to bottom glimpse at the <a href="https://ehringhaus.shinyapps.io/project/
 An example of an “AI-Generated Recommendations” report
 </figcaption>
 </figure>
-<p>No paradigm shifts will be found here. Yet, following advice as simple as, “clean up the streets,” could lead to a significant increase in resident satisfaction.</p>
+<p>No groundbreaking revelations here. However, following simple advice like “clean up the streets” could potentially uplift resident satisfaction significantly.</p>
 </div>
 <div id="conclusion-the-lifeblood-of-a-city-in-the-age-of-data" class="section level2">
 <h2>Conclusion: The Lifeblood of a City in the Age of Data</h2>
-<p>Data is a seed from which knowledge grows. But much like a seed, data in its raw form isn’t particularly useful. This project is a testament to the power of visualization and its potential to uncover the intricate dynamics of a city. It demonstrates that even with a restricted dataset and a tight timeframe, we can extract valuable insights about a city and its residents. The <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a> dashboard is a tangible embodiment of this concept, a proof-of-concept that brings us closer to understanding the city’s rhythm.</p>
-<p>The journey ahead is exciting. We are not just creating smarter cities; we are creating cities that listen, understand, and respond. We are crafting cities that truly serve their residents, cities that pulse with the rhythm of their people.</p>
+<p>Data is a knowledge seed, yet it requires cultivation to be useful. This project testifies to visualization’s potency and its capacity to decode the complex dance of a city. It validates that even a limited dataset and a strict timeline can reveal significant insights into a city and its inhabitants. The <a href="https://ehringhaus.shinyapps.io/project/"><em>Pulse of Portland</em></a> dashboard embodies this idea, serving as a concrete proof-of-concept bringing us a step closer to grasping a city’s rhythm.</p>
 </div>
 
     </div>
@@ -220,9 +211,6 @@ An example of an “AI-Generated Recommendations” report
         
       </nav>
     </footer>
-
-    
-    <script async data-uid="802d4ffa45" src="https://ehrror.ck.page/802d4ffa45/index.js"></script>
 
     
     <div>

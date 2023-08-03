@@ -39,14 +39,6 @@
       </div>
     </header>
 
-<!-- NOTE: FIX THIS -->
-    <div class="social-share">
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-facebook" title="Share on Facebook"></a>
-      <a href="https://twitter.com/intent/tweet?text={{ .Title | urlize }}&url={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-twitter" title="Share on Twitter"></a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-linkedin" title="Share on LinkedIn"></a>
-      <a href="mailto:?subject={{ .Title | urlize }}&body={{ .Permalink | urlize }}" target="_blank" rel="noopener noreferrer" class="iconfont icon-email" title="Email"></a>
-    </div>
-
     <!-- TOC -->
     {{- partial "post/toc.html" . -}}
 
@@ -91,9 +83,6 @@
         {{- end }}
       </nav>
     </footer>
-
-    <!-- Subscribe to Newsletter -->
-    <script async data-uid="802d4ffa45" src="https://ehrror.ck.page/802d4ffa45/index.js"></script>
 
     <!-- Comments -->
     <div>
