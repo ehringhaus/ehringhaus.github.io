@@ -4,11 +4,15 @@ title: About
 weight: 40
 ---
 
-I coded up my first, basic 'hello world' app like a possum eating sweet potato. Not long after, I was diving headlong into the math and algorithms surrounding deep learning, and that sweet potato had lost its umami.
+I coded up my first 'hello world' app like a possum devouring a sweet potato, grinning ear to ear. Not long after, I was diving headlong into maths and algorithms behind deep learning, and, by then already, the sweet potato had lost a good amount of its savor.
 
-I (Justin Ehringhaus) created *ehrror* for the careful and carefree exploration of my various ideas and projects. It is a portfolio, a journal, and a digital playground. 
+I created *ehrror* to explore ideas, carefully and carefreely. Coding a line that works; crafting a sentence that sings; savoring a moment of living — this is a portfolio, a journal, and a digital playground to capture and convey these simple joys.
 
-Coding a line that works; crafting a sentence that sings; savoring a moment of living — these are the simple joys I wish to capture, and I hope they may be of benefit to someone, somewhere. Please feel free to reach out to me for any inquiries. My resume may be viewed [here](JustinEhringhaus-Resume.pdf).
+If you find anything of benefit, reach me. I would be happy to connect.
+
+Justin Ehringhaus, August 09, 2023
+
+Resume accessible by [clicking here]("JustinEhringhaus-Resume.pdf")
 
 <br/><br/>
 
