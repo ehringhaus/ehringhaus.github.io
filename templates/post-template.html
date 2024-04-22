@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .post-container {
+            max-width: 444px;
+            padding-left: 4px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: #1c3d5a;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #1c3d5a;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .subtitle {
+            font-size: 0.8rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="post-container">
+        {% if is_post %}
+        <a href="/">Home</a>
+        {% endif %}
+        <h1>{{ title }}</h1>
+        <p class="subtitle">{{ subtitle }}</p>
+        {{ content }}
+    </div>
+</body>
+</html>
