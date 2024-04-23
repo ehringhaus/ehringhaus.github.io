@@ -9,9 +9,9 @@ It's pretty amazing what you can learn from this kind of everyday data. Each req
 
 I put together this dashboard to help make sense of it all. Check it out:
 
-<div style="text-align:center;">
-  <a href="https://ehringhaus.shinyapps.io/project/" target="_blank" rel="noopener noreferrer">
-    <img src="city.jpg" alt="Pulse of Portland Dashboard" style="max-width:66%; height:auto;">
+<div style="text-align:left;">
+  <a href="https://ehringhaus.shinyapps.io/project/" target="\_blank" rel="noopener noreferrer">
+    <img src="city.jpg" alt="Pulse of Portland Dashboard" style="max-width:44%; height:auto;">
   </a>
   <p style="color:grey; font-size:small;">Pulse of Portland Dashboard</p>
 </div>

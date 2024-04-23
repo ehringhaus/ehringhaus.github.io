@@ -7,37 +7,53 @@
     <style>
         body {
             font-family: "Helvetica Neue", Arial, sans-serif;
-            padding: 20px;
-            background-color: #f8f8f8;
+            padding: 4px;
+            background-color: #F6F8FA;
+            color: #24292E;
         }
         h1 {
             font-size: 2rem;
             margin-bottom: 0.5rem;
-            color: #1c3d5a;
+            color: #0366D6;
         }
         h2 {
             font-size: 1.2rem;
             margin-top: 2rem;
             margin-bottom: 0.5rem;
-            color: #666;
+            color: #24292E;
         }
         a {
             text-decoration: none;
-            color: #1c3d5a;
+            color: #0366D6;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         .post-link {
             display: block;
             padding: 0.5rem 0;
-            border-bottom: 1px dotted #ccc;
+            border-bottom: 1px solid #E1E4E8;
             margin-left: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .post-link:hover {
+            background-color: #F1F8FF;
+        }
+        .about {
+            color: #6A737D;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        .subtitle {
+            color: #6A737D;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
         }
     </style>
 </head>
 <body>
-    <h1>About</h1>
-    <p>Hello!</p>
-
-    <h1>Posts</h1>
+    <p class="about">Hello!</p>
+    
     
 <h2>April 2023</h2>
 <div class='post-link'><a href='citys-heartbeat-visualized/citys-heartbeat-visualized.html'>A city's heartbeat, visualized</a></div>
